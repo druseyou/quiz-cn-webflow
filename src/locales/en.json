@@ -1,0 +1,223 @@
+{
+  "quiz": {
+    "phase1": {
+      "title": "Phase 1: Demographics & Lifestyle",
+      "gender": {
+        "question": "What is your gender?",
+        "female": "♀️ Female",
+        "male": "♂️ Male"
+      },
+      "age": {
+        "question": "How old are you?"
+      },
+      "workday": {
+        "question": "How would you describe your typical workday?",
+        "sedentary": "Sedentary (Office/Home)",
+        "moderate": "Moderate activity",
+        "active": "Very active"
+      },
+      "devices": {
+        "question": "How often do you use digital devices in the hour before bed?",
+        "always": "Always",
+        "often": "Often",
+        "rarely": "Rarely"
+      },
+      "bedtime": {
+        "question": "What time do you usually go to bed?",
+        "before10": "Before 10 PM",
+        "10to11": "10-11 PM",
+        "11to12": "11 PM - 12 AM",
+        "12to1": "12-1 AM",
+        "after1": "After 1 AM"
+      }
+    },
+    "phase2": {
+      "title": "Phase 2: Diving into Insomnia",
+      "goal": {
+        "question": "What is your primary goal today?",
+        "fallAsleep": "Fall asleep faster",
+        "stayAsleep": "Stay asleep through the night",
+        "wakeUpRefreshed": "Wake up feeling refreshed",
+        "reduceStress": "Reduce stress and anxiety"
+      },
+      "timeToSleep": {
+        "question": "On average, how long does it take you to fall asleep?",
+        "less15": "Less than 15 minutes",
+        "15to30": "15-30 minutes",
+        "30to60": "30-60 minutes",
+        "over60": "Over 60 minutes"
+      },
+      "nightWaking": {
+        "question": "How often do you wake up during the night?",
+        "never": "Never",
+        "once": "Once",
+        "2to3": "2-3 times",
+        "moreThan3": "More than 3 times"
+      },
+      "triggers": {
+        "question": "What TRIGGERS your wakefulness?",
+        "noise": "External noises",
+        "thoughts": "Racing thoughts",
+        "discomfort": "Physical discomfort",
+        "unknown": "Don't know"
+      },
+      "afternoonCrash": {
+        "question": "Do you experience \"3:00 PM sleepiness\" (afternoon energy crash)?",
+        "yes": "Yes, regularly",
+        "sometimes": "Sometimes",
+        "no": "No"
+      }
+    },
+    "phase3": {
+      "title": "Phase 3: Psycho-emotional State",
+      "racingThoughts": {
+        "question": "Do you experience \"racing thoughts\" when you lie down to sleep?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "stress": {
+        "question": "How often do you experience stress during the week?"
+      },
+      "switchOff": {
+        "question": "Is it difficult for you to \"switch off\" work tasks once you are home?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "anxiety": {
+        "question": "Do you have bouts of anxiety without an obvious cause?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "wiredTired": {
+        "question": "Are you familiar with the feeling of being \"wired but tired\"?",
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "phase4": {
+      "title": "Phase 4: Sound Sensitivity & Environment",
+      "silence": {
+        "question": "How do you feel about total silence while sleeping?",
+        "uncomfortable": "Uncomfortable, makes me anxious",
+        "neutral": "Neutral",
+        "prefer": "I prefer complete silence"
+      },
+      "sharpNoises": {
+        "question": "Do sharp noises (dripping faucet, ticking clock) irritate you?",
+        "yes": "Yes, very much",
+        "no": "No"
+      },
+      "tvPodcasts": {
+        "question": "Have you ever tried falling asleep to the TV or podcasts?",
+        "yes": "Yes, it helps",
+        "tried": "Tried, but it didn't help",
+        "no": "No, never"
+      },
+      "naturalSounds": {
+        "question": "What type of natural sounds do you prefer?",
+        "rain": "Rain",
+        "ocean": "Ocean waves",
+        "forest": "Forest sounds",
+        "none": "None"
+      },
+      "earplugs": {
+        "question": "Do you use earplugs to sleep?",
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "phase5": {
+      "title": "Phase 5: Habits & Rituals",
+      "coffee": {
+        "question": "Do you drink coffee or tea in the afternoon?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "exercise": {
+        "question": "Do you exercise late in the evening?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "naps": {
+        "question": "Do you take daytime naps (siestas)?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "bedroomUse": {
+        "question": "Is your bedroom used only for sleep, or do you also work/eat there?",
+        "sleepOnly": "Sleep only",
+        "multiple": "Multiple activities"
+      },
+      "ritual": {
+        "question": "Are you ready to dedicate 10 minutes to a nightly sound ritual to reset your biorhythms?",
+        "yes": "Yes, I'm ready",
+        "no": "Not sure"
+      }
+    },
+    "info": {
+      "whyMatters": "Why does this matter?",
+      "binauralBeats": "Our algorithms utilize binaural beats. When you hear different frequencies in each ear, your brain \"tunes in\" to them, naturally entering a state of meditation.",
+      "researchText": "Harvard Medical School research confirms that light from devices suppresses melatonin production. However, sound can help compensate for this.",
+      "soundTherapy": "Sound therapy creates a predictable environment that signals the amygdala (the brain's fear center) that it is time to relax",
+      "doctor": "— Dr. A. Marcus, Somnologist.",
+      "recommendation": "Doctor's Recommendation:",
+      "whiteNoise": "For those with an anxious personality type, white noise is more effective than sleeping pills as it has no side effects or risk of dependency",
+      "understood": "Understood, let's continue.",
+      "testimonial1": {
+        "title": "Using Cloudnoise for 4 months!",
+        "text": "I used to wake up at every little noise outside and spend 2 hours trying to fall back asleep. Cloudnoise literally saved my marriage—now I don't get annoyed by my husband's snoring; I simply don't hear it over the 'Brown Noise'",
+        "author": "— Elena, 32."
+      },
+      "productivity": {
+        "title": "From \"Burnout\" to \"Productivity\"",
+        "rating": "Rating: 4.9/5 in App Store based on 31M reviews",
+        "text": "I used CloudNoise for work. It turns out deep rain sounds increase my focus by 40%. I finish my tasks twice as fast and go to bed without the guilt of unfinished work",
+        "almostThere": "Almost there!"
+      }
+    },
+    "results": {
+      "complete": "Analysis Complete!",
+      "match": "Your profile matches",
+      "matchPercent": "82%",
+      "matchText": "of users who successfully overcame insomnia within the first 10 days of using Cloudnoise",
+      "recommendation": "Cloudnoise is recommended as an aid for correcting circadian rhythms",
+      "personalPlan": {
+        "title": "Create your personal Soundscape",
+        "intro": "Based on your responses (specifically regarding device use and racing thoughts), we've identified that your brain needs a \"sound blanket\".",
+        "prepared": "We have prepared a combination of",
+        "combination": "Brown Noise + Deep Rain",
+        "purpose": "to neutralize anxious thoughts"
+      },
+      "comparison": {
+        "title": "Change your quality of life overnight",
+        "without": "Without CloudNoise (Current Profile)",
+        "with": "With CloudNoise (Your Plan)",
+        "timeToSleep": "Time to fall asleep",
+        "timeWithout": "40–60 minutes",
+        "timeWith": "10–12 minutes",
+        "quality": "Deep sleep quality",
+        "qualityWithout": "Low (Fragmented)",
+        "qualityWith": "High (Continuous)",
+        "morning": "Morning feeling",
+        "morningWithout": "Urge to hit \"Snooze\"",
+        "morningWith": "Waking up naturally with energy",
+        "focus": "Daytime focus",
+        "focusWithout": "Requires 3+ cups of coffee",
+        "focusWith": "Stable concentration without stimulants"
+      },
+      "planIncludes": "Your personal plan includes:",
+      "feature1": "Custom sound mix for sleep.",
+      "feature2": "\"Concentration\" mode for distraction-free work.",
+      "feature3": "Sleep timer (so the phone doesn't play all night)",
+      "cta": "Get my plan and start"
+    },
+    "buttons": {
+      "next": "Next",
+      "continue": "Continue",
+      "viewPlan": "View my personal plan",
+      "freeTrial": "7-day free trial",
+      "downloadApp": "Download app"
+    }
+  }
+}
+
