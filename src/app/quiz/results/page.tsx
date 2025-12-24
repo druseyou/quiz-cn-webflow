@@ -21,7 +21,7 @@ export default function ResultsPage() {
       {showConfetti && <Confetti />}
       
       {/* Header Image */}
-      <div className="relative w-full h-[100svh] md:h-[300px] overflow-hidden animate-slide-up">
+      <div className="relative w-full h-[280px] sm:h-[320px] overflow-hidden animate-slide-up">
         <Image
           src={PHONE_IMAGE}
           alt="Sound waves"
