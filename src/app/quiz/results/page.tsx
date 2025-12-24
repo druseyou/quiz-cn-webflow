@@ -21,12 +21,12 @@ export default function ResultsPage() {
       {showConfetti && <Confetti />}
       
       {/* Header Image */}
-      <div className="relative w-full h-[180px] overflow-hidden animate-slide-up">
+      <div className="relative w-full h-[100svh] md:h-[300px] overflow-hidden animate-slide-up">
         <Image
           src={PHONE_IMAGE}
           alt="Sound waves"
           fill
-          sizes="375px"
+          sizes="100vw"
           className="object-cover object-center"
           priority
         />
@@ -57,11 +57,11 @@ export default function ResultsPage() {
 
         {/* Quote */}
         <div className="relative px-3">
-          <span className="absolute -left-1 -top-2 text-5xl text-[#4ecdc4]/60 font-serif leading-none select-none" aria-hidden="true">"</span>
+          <span className="absolute -left-1 -top-2 text-5xl text-[#4ecdc4]/60 font-serif leading-none select-none" aria-hidden="true">{'"'}</span>
           <p className="text-[#4ecdc4] text-[15px] leading-7 italic pl-6 pr-6">
             {translations.quiz.results.recommendation}
           </p>
-          <span className="absolute right-0 bottom-0 text-5xl text-[#4ecdc4]/60 font-serif leading-none select-none" aria-hidden="true">"</span>
+          <span className="absolute right-0 bottom-0 text-5xl text-[#4ecdc4]/60 font-serif leading-none select-none" aria-hidden="true">{'"'}</span>
         </div>
 
         {/* Divider */}

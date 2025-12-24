@@ -40,8 +40,8 @@ export default function Info3Page() {
         {/* Testimonial з великими лапками */}
         <div className="relative bg-transparent rounded-2xl py-2">
           {/* Великі лапки */}
-          <div className="absolute -left-2 -top-4 text-[80px] text-text-primary opacity-20 font-serif leading-none">"</div>
-          <div className="absolute -right-2 -bottom-8 text-[80px] text-text-primary opacity-20 font-serif leading-none">"</div>
+          <div className="absolute -left-2 -top-4 text-[80px] text-text-primary opacity-20 font-serif leading-none">{'"'}</div>
+          <div className="absolute -right-2 -bottom-8 text-[80px] text-text-primary opacity-20 font-serif leading-none">{'"'}</div>
           
           <div className="relative z-10 px-4 py-2">
             <p className="text-text-primary text-sm leading-6 italic text-left">

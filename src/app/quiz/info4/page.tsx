@@ -65,7 +65,7 @@ export default function Info4Page() {
             className="absolute -left-1 -top-2 text-6xl text-[#4ecdc4]/60 font-serif leading-none select-none"
             aria-hidden="true"
           >
-            "
+            {'"'}
           </span>
           <p className="text-text-primary/90 text-[15px] leading-7 italic pl-8 pr-6">
             {translations.quiz.info.productivity.text}
@@ -74,7 +74,7 @@ export default function Info4Page() {
             className="absolute right-0 bottom-0 text-6xl text-[#4ecdc4]/60 font-serif leading-none select-none"
             aria-hidden="true"
           >
-            "
+            {'"'}
           </span>
         </div>
 

@@ -47,8 +47,8 @@ export default function Info1Page() {
         {/* Цитата з лікарем */}
         <div className="relative bg-primary-dark/30 rounded-2xl p-5">
           {/* Лапки */}
-          <span className="absolute left-3 top-2 text-5xl text-[#00d4ff] opacity-30 leading-none font-serif">"</span>
-          <span className="absolute right-3 bottom-2 text-5xl text-[#00d4ff] opacity-30 leading-none font-serif">"</span>
+          <span className="absolute left-3 top-2 text-5xl text-[#00d4ff] opacity-30 leading-none font-serif">{'"'}</span>
+          <span className="absolute right-3 bottom-2 text-5xl text-[#00d4ff] opacity-30 leading-none font-serif">{'"'}</span>
           
           <div className="relative z-10 pl-4">
             <p className="text-text-primary text-sm leading-6 italic">

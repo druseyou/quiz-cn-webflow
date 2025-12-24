@@ -87,7 +87,7 @@ export default function Info2Page() {
               className="absolute left-0 -top-1 text-5xl text-[#4ecdc4]/50 font-serif leading-none select-none"
               aria-hidden="true"
             >
-              "
+              {'"'}
             </span>
             <p className="text-text-primary/90 text-[15px] leading-7 italic pl-6 pr-4">
               {translations.quiz.info.whiteNoise}
@@ -96,7 +96,7 @@ export default function Info2Page() {
               className="absolute right-0 bottom-0 text-5xl text-[#4ecdc4]/50 font-serif leading-none select-none"
               aria-hidden="true"
             >
-              "
+              {'"'}
             </span>
           </div>
         </div>

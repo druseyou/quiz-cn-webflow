@@ -57,7 +57,7 @@ export default function AnalysisPage() {
             className="absolute -left-1 -top-2 text-5xl text-[#4ecdc4]/60 font-serif leading-none select-none"
             aria-hidden="true"
           >
-            "
+            {'"'}
           </span>
           <p className="text-[#4ecdc4] text-[15px] leading-7 italic pl-6 pr-6">
             {translations.quiz.results.recommendation}
@@ -66,7 +66,7 @@ export default function AnalysisPage() {
             className="absolute right-0 bottom-0 text-5xl text-[#4ecdc4]/60 font-serif leading-none select-none"
             aria-hidden="true"
           >
-            "
+            {'"'}
           </span>
         </div>
 
