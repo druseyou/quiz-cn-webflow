@@ -23,7 +23,8 @@ export default function ResultsPage() {
     if (typeof window !== "undefined" && window.fbq) {
       window.fbq("track", "Lead");
     }
-    console.log("Get plan clicked");
+    // Відкриваємо App Store
+    window.open("https://apps.apple.com/us/app/cloudnoise-fan-white-noise/id6744053504", "_blank");
   };
 
   return (
