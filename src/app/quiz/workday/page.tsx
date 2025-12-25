@@ -7,6 +7,12 @@ import QuestionHeader from "@/components/QuestionHeader";
 import QuestionButton from "@/components/QuestionButton";
 import translations from "@/locales/en.json";
 
+declare global {
+  interface Window {
+    fbq: (...args: unknown[]) => void;
+  }
+}
+
 const BEDROOM_IMAGE = "/images/Cute Cozy Bedroom Diorama 1.webp";
 
 export default function WorkdayPage() {
@@ -15,6 +21,11 @@ export default function WorkdayPage() {
 
   useEffect(() => {
     if (selected) {
+      // Facebook Pixel - ViewContent після 3-го питання
+      if (typeof window !== "undefined" && window.fbq) {
+        window.fbq("track", "ViewContent");
+      }
+      
       const timer = setTimeout(() => {
         router.push("/quiz/devices");
       }, 500);

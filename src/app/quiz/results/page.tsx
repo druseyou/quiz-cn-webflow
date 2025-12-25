@@ -6,6 +6,12 @@ import ContinueButton from "@/components/ContinueButton";
 import Confetti from "@/components/Confetti";
 import translations from "@/locales/en.json";
 
+declare global {
+  interface Window {
+    fbq: (...args: unknown[]) => void;
+  }
+}
+
 const PHONE_IMAGE = "/images/Phone Sound Waves 3D Illustration (1) 1.webp";
 const ICON_IMAGE = "/images/icon 1.svg";
 
@@ -13,6 +19,10 @@ export default function ResultsPage() {
   const [showConfetti, setShowConfetti] = useState(true);
 
   const handleGetPlan = () => {
+    // Facebook Pixel - Lead подія при натисканні на кнопку скачування
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "Lead");
+    }
     console.log("Get plan clicked");
   };
 
